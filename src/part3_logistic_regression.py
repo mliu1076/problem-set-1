@@ -53,7 +53,7 @@ def logistic_regression(df_arrests):
     
     # prints the optimal value for C and regularization
     optimal_C = gs_cv.best_params_['C']
-    print(f"Optimal value for C: {optimal_C}")
+    print("Optimal value for C: {optimal_C}")
     
     if optimal_C < 1:
         print("This value of C shows strong regularization.")
