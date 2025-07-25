@@ -48,7 +48,7 @@ def calibration_plot(y_true, y_prob, n_bins=10):
     plt.legend(loc="best")
     plt.show()
 
-def calibration_light(lr_arrests, dt_arrests):
+def calibration_plotting(lr_arrests, dt_arrests):
 
     # gets the dataframe with predictions from the logistic regression and decision tree models
     df_arrests_lr = logistic_regression(lr_arrests)
