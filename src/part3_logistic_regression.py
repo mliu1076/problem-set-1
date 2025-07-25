@@ -27,7 +27,7 @@ def logistic_regression(df_arrests):
         test_size=0.3, 
         shuffle=True, 
         stratify=df_arrests['y'], 
-        random_state=42  # fix the random state for reproducibility
+        random_state=42  # adds random state for reproducibility
     )
     
     # define list of features for the model
